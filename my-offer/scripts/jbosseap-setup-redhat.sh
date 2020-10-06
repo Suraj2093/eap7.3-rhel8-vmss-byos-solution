@@ -16,7 +16,7 @@ STORAGE_ACCOUNT_NAME=$3
 CONTAINER_NAME=$4
 STORAGE_ACCESS_KEY=$(echo "${5}" | openssl enc -d -base64)
 
-echo "Initial JBoss EAP 7.2 setup" | adddate >> eap.log
+echo "Initial JBoss EAP 7.3 setup" | adddate >> eap.log
 echo "JBoss EAP admin user: " ${JBOSS_EAP_USER} | adddate >> eap.log
 echo "Storage Account Name: " ${STORAGE_ACCOUNT_NAME} | adddate >> eap.log
 echo "Storage Container Name: " ${CONTAINER_NAME} | adddate >> eap.log
