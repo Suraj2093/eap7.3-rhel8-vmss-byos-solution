@@ -38,7 +38,7 @@
     "value": "10.5.1.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg3"
+    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg"
   },
   "publicIpNewOrExistingOrNone": {
     "value": "existing"
