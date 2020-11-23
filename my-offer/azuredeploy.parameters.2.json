@@ -1,9 +1,9 @@
 {
   "location": {
-    "value": "westus"
+    "value": "eastus2"
   },
   "vmssName": {
-    "value": "EAP73-RHEL8-BYOS-VMSS2"
+    "value": "EAP73-RHEL8-BYOS-VMSS4"
   },
   "adminUsername": {
     "value": "demouser"
@@ -15,62 +15,56 @@
     "value": "demoPassword1!"
   },
   "vmSize": {
-    "value": "Standard_F8s_v2"
+    "value": "Standard_D2s_v3"
   },
   "instanceCount": {
-    "value": "2"
+    "value": "100"
   },
   "virtualNetworkNewOrExisting": {
-    "value": "existing"
+    "value": "new"
   },
   "virtualNetworkName": {
-    "value": "EXT-VNET1"
+    "value": "VirtualNetwork"
   },
   "addressPrefixes": {
     "value": [
-      "10.3.0.0/16"
+      "10.1.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "EXT-subnet-Rg1"
+    "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.3.0.0/24"
+    "value": "10.1.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EXt-Resource-Rg1"
+    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg4"
   },
-  "publicIpNewOrExisting": {
-    "value": "none"
-  },
-  "publicIpDns": {
-    "value": ""
-  },
-  "publicIpResourceGroupName": {
-    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg2"
-  },
-  "publicIpSku": {
-    "value": "Basic"
+  "publicIpNameNew": {
+    "value": "EAP73-RHEL8-BYOS-VMSS41-ip"
   },
   "bootDiagnostics": {
     "value": "On"
   },
   "storageNewOrExisting": {
-    "value": "existing"
+    "value": "new"
   },
   "storageAccountName": {
-    "value": "diagstrgeap73"
+    "value": "eap73r8v2lrsdiag"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
   },
+  "storageAccountKind": {
+    "value": "StorageV2"
+  },
   "storageReplication": {
-    "value": "Standard_GRS"
+    "value": "Standard_ZRS"
   },
   "jbossEAPUserName": {
     "value": "demouser1"
   },
   "jbossEAPPassword": {
-    "value": "demoPassword1!"
+    "value": "demoPassword1&"
   }
 }
