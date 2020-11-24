@@ -1,6 +1,6 @@
 {
   "location": {
-    "value": "eastus2"
+    "value": "westus"
   },
   "vmssName": {
     "value": "EAP73-RHEL8-BYOS-VMSS4"
@@ -28,35 +28,50 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.1.0.0/16"
+      "10.0.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.1.0.0/24"
+    "value": "10.0.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
     "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg4"
   },
-  "publicIpNameNew": {
-    "value": "EAP73-RHEL8-BYOS-VMSS41-ip"
+  "publicIpNewOrExistingOrNone": {
+    "value": "existing"
+  },
+  "publicIpName": {
+    "value": "EAP-RHEL-VMSS-Basic-pip1"
+  },
+  "publicIpDns": {
+    "value": "eap-rhel-vmss-basic-pip1"
+  },
+  "publicIpResourceGroupName": {
+    "value": "EXt-Resource-Rg1"
+  },
+  "publicIPAllocationMethod": {
+    "value": "Dynamic"
+  },
+  "publicIpSku": {
+    "value": "Basic"
   },
   "bootDiagnostics": {
     "value": "On"
   },
   "storageNewOrExisting": {
-    "value": "new"
+    "value": "existing"
   },
   "storageAccountName": {
-    "value": "eap73r8v2lrsdiag"
+    "value": "diagstrgeap73"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
   },
   "storageAccountKind": {
-    "value": "StorageV2"
+    "value": "Storage"
   },
   "storageReplication": {
     "value": "Standard_ZRS"
