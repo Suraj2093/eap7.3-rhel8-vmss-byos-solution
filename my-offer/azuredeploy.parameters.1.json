@@ -1,56 +1,56 @@
 {
   "location": {
-    "value": "westus"
+    "value": "eastus2"
   },
   "vmssName": {
-    "value": "EAP73-RHEL8-BYOS-VMSS3"
+    "value": "EAP73-RHEL8-BYOS-VMSS6"
   },
   "adminUsername": {
     "value": "demouser"
   },
   "authenticationType": {
-    "value": "sshPublicKey"
+    "value": "password"
   },
   "adminPasswordOrSSHKey": {
-    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA059D0hIn2nF320wj1f5HobremXWx/W/ss9lGvHcaarWHlqoMeg2uXyoZTa74pK3AQVJG8dl0mTDZHIhKylUiDwCpmNxD8Ybao0ZwP3S6nEbR9z7DTvpzH/HbhBer8PdJ3aU3NpPHxuWzmnpjUR6I0RmmDp9tQM08ObPS4vzClNs4KM1NirYzp42EOcHI4yRq+7ypNvIgJLh+sQb503HzD9sXby4A1/CJ4UdfGbzRoZ1Mq2p6aWlHs77gbt9khZcGKAXf0/ofJCRj25e/VqNQJomcPJq61Ez038C5JRQERt2h+1EiLaOc1xhormKnubGzaWgVWQdZDs4RQ7pU/SEpJQ== rsa-key-20201016"
+    "value": "demoPassword1!"
   },
   "vmSize": {
-    "value": "Standard_F8s_v2"
+    "value": "Standard_B2s"
   },
   "instanceCount": {
-    "value": "3"
+    "value": "45"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
   },
   "virtualNetworkName": {
-    "value": "VirtualNetwork"
+    "value": "VirtualNetwork-new"
   },
   "addressPrefixes": {
     "value": [
-      "10.5.0.0/16"
+      "10.4.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "Subnetnew-1"
+    "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.5.1.0/24"
+    "value": "10.4.5.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg"
+    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg6"
   },
   "publicIpNewOrExistingOrNone": {
-    "value": "existing"
+    "value": "new"
   },
   "publicIpName": {
-    "value": "EAP73-RHEL8-VMSS-STD-pip1"
+    "value": "EAP73-RHEL8-BYOS-VMSS6-stdip"
   },
   "publicIpDns": {
-    "value": "eap73-rhel8-vmss-std-pip1"
+    "value": "eap73-rhel8-byos-vmss6std-aea689f1ac"
   },
   "publicIpResourceGroupName": {
-    "value": "EXt-Resource-Rg1"
+    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg6"
   },
   "publicIPAllocationMethod": {
     "value": "Static"
@@ -62,12 +62,12 @@
     "value": "Off"
   },
   "storageReplication": {
-    "value": "Premium_LRS"
+    "value": "Standard_GRS"
   },
   "jbossEAPUserName": {
-    "value": "demouser1"
+    "value": "demouser"
   },
   "jbossEAPPassword": {
-    "value": "demoPassword1$"
+    "value": "demoPassword1&"
   }
 }
