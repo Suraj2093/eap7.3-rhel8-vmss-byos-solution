@@ -47,10 +47,10 @@
     "value": "On"
   },
   "storageNewOrExisting": {
-    "value": "new"
+    "value": "existing"
   },
   "storageAccountName": {
-    "value": "eap73rhe6e8ed6784c"
+    "value": "diagstrgeap73"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
