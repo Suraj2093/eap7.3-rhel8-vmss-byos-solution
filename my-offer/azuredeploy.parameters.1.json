@@ -1,71 +1,68 @@
 {
   "location": {
-    "value": "eastus2"
+    "value": "westus"
   },
   "vmssName": {
-    "value": "EAP73-RHEL8-BYOS-VMSS6"
+    "value": "EAP73-RHEL8-BYOS-VMSS8"
   },
   "adminUsername": {
     "value": "demouser"
   },
   "authenticationType": {
-    "value": "password"
+    "value": "sshPublicKey"
   },
   "adminPasswordOrSSHKey": {
-    "value": "demoPassword1!"
+    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAk3c55nBtRnUpb/SBFz09cmeHVvwe3XmFlto+eg7vL2greJR3GwE9mdS705fAXpLWbBxwSVwfvfA/SN72ddXutsWxKMOD4vUPf9mK2vN2v8rYawSmyI/NOK8yBkPfNmMECjw3Dz+vtibVmFWN1aDsxUTyA7lfBSy9PI6SmzFjoSiftmPqZuO6Y+2BAx5fIATJA1tJkqdpQFYMNsGUvcMpuBfJreZ581iCzNodrkS13+APaAskX3TfdfwGTOUvUIxrl0K/9xzvRPvsnlu/AhoH1MpTE6TXicsKbpqila7fSrW1sS9T0pyoqPcb3JTQ0RladAvK9KPR3QR1WSnOS14Mlw== rsa-key-20201125"
   },
   "vmSize": {
-    "value": "Standard_B2s"
+    "value": "Standard_DS2_v2"
   },
   "instanceCount": {
-    "value": "45"
+    "value": "23"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
   },
   "virtualNetworkName": {
-    "value": "VirtualNetwork-new"
+    "value": "VirtualNetwork"
   },
   "addressPrefixes": {
     "value": [
-      "10.4.0.0/16"
+      "10.1.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.4.5.0/24"
+    "value": "10.1.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg6"
+    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg8"
   },
   "publicIpNewOrExistingOrNone": {
-    "value": "new"
-  },
-  "publicIpName": {
-    "value": "EAP73-RHEL8-BYOS-VMSS6-stdip"
-  },
-  "publicIpDns": {
-    "value": "eap73-rhel8-byos-vmss6std-aea689f1ac"
-  },
-  "publicIpResourceGroupName": {
-    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg6"
-  },
-  "publicIPAllocationMethod": {
-    "value": "Static"
-  },
-  "publicIpSku": {
-    "value": "Standard"
+    "value": "none"
   },
   "bootDiagnostics": {
-    "value": "Off"
+    "value": "On"
+  },
+  "storageNewOrExisting": {
+    "value": "existing"
+  },
+  "storageAccountName": {
+    "value": "diagstrgeap73"
+  },
+  "storageAccountType": {
+    "value": "Standard_LRS"
+  },
+  "storageAccountKind": {
+    "value": "Storage"
   },
   "storageReplication": {
-    "value": "Standard_GRS"
+    "value": "Standard_LRS"
   },
   "jbossEAPUserName": {
-    "value": "demouser"
+    "value": "demouser1"
   },
   "jbossEAPPassword": {
     "value": "demoPassword1&"
