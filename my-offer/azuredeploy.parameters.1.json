@@ -3,7 +3,7 @@
     "value": "westus"
   },
   "vmssName": {
-    "value": "EAP73-RHEL8-BYOS-VMSS3"
+    "value": "EAP73-RHEL8-BYOS-VMSS8"
   },
   "adminUsername": {
     "value": "demouser"
@@ -12,13 +12,13 @@
     "value": "sshPublicKey"
   },
   "adminPasswordOrSSHKey": {
-    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA059D0hIn2nF320wj1f5HobremXWx/W/ss9lGvHcaarWHlqoMeg2uXyoZTa74pK3AQVJG8dl0mTDZHIhKylUiDwCpmNxD8Ybao0ZwP3S6nEbR9z7DTvpzH/HbhBer8PdJ3aU3NpPHxuWzmnpjUR6I0RmmDp9tQM08ObPS4vzClNs4KM1NirYzp42EOcHI4yRq+7ypNvIgJLh+sQb503HzD9sXby4A1/CJ4UdfGbzRoZ1Mq2p6aWlHs77gbt9khZcGKAXf0/ofJCRj25e/VqNQJomcPJq61Ez038C5JRQERt2h+1EiLaOc1xhormKnubGzaWgVWQdZDs4RQ7pU/SEpJQ== rsa-key-20201016"
+    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAk3c55nBtRnUpb/SBFz09cmeHVvwe3XmFlto+eg7vL2greJR3GwE9mdS705fAXpLWbBxwSVwfvfA/SN72ddXutsWxKMOD4vUPf9mK2vN2v8rYawSmyI/NOK8yBkPfNmMECjw3Dz+vtibVmFWN1aDsxUTyA7lfBSy9PI6SmzFjoSiftmPqZuO6Y+2BAx5fIATJA1tJkqdpQFYMNsGUvcMpuBfJreZ581iCzNodrkS13+APaAskX3TfdfwGTOUvUIxrl0K/9xzvRPvsnlu/AhoH1MpTE6TXicsKbpqila7fSrW1sS9T0pyoqPcb3JTQ0RladAvK9KPR3QR1WSnOS14Mlw== rsa-key-20201125"
   },
   "vmSize": {
-    "value": "Standard_F8s_v2"
+    "value": "Standard_DS2_v2"
   },
   "instanceCount": {
-    "value": "3"
+    "value": "23"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
@@ -28,46 +28,43 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.5.0.0/16"
+      "10.1.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "Subnetnew-1"
+    "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.5.1.0/24"
+    "value": "10.1.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg"
+    "value": "EAP73-RHEL8-byos-VMSS-Soln-Test-Rg8"
   },
   "publicIpNewOrExistingOrNone": {
-    "value": "existing"
-  },
-  "publicIpName": {
-    "value": "EAP73-RHEL8-VMSS-STD-pip1"
-  },
-  "publicIpDns": {
-    "value": "eap73-rhel8-vmss-std-pip1"
-  },
-  "publicIpResourceGroupName": {
-    "value": "EXt-Resource-Rg1"
-  },
-  "publicIPAllocationMethod": {
-    "value": "Static"
-  },
-  "publicIpSku": {
-    "value": "Standard"
+    "value": "none"
   },
   "bootDiagnostics": {
-    "value": "Off"
+    "value": "On"
+  },
+  "storageNewOrExisting": {
+    "value": "existing"
+  },
+  "storageAccountName": {
+    "value": "diagstrgeap73"
+  },
+  "storageAccountType": {
+    "value": "Standard_LRS"
+  },
+  "storageAccountKind": {
+    "value": "Storage"
   },
   "storageReplication": {
-    "value": "Premium_LRS"
+    "value": "Standard_LRS"
   },
   "jbossEAPUserName": {
     "value": "demouser1"
   },
   "jbossEAPPassword": {
-    "value": "demoPassword1$"
+    "value": "demoPassword1&"
   }
 }
